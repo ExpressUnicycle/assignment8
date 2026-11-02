@@ -1,0 +1,42 @@
+img {
+    pointer-events: none;
+}
+
+#pop{
+    display: none;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(39, 39, 48, 0.75);
+    justify-content: center;
+    align-items: center;
+}
+
+#pop #view{
+    border: 2px solid black;
+    border-radius: 5px;
+    box-sizing: border-box;
+    padding: 5px;
+    margin-bottom: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(109, 95, 95);
+    color: white;
+}
+
+#view img{
+    width: 900px;
+    max-height: 100%;
+}
+
+#wrapper div{
+    border: 2px solid black;
+    border-radius: 5px;
+    box-sizing: border-box;
+    padding: 5px;
+    margin-bottom: 8px;
+}
